@@ -28,7 +28,7 @@ Widget textHelper(
          double? fontSize,
         bool isItalic = false,
         FontWeight fontWeight = FontWeight.normal,
-        TextAlign textAlign = TextAlign.center}) =>
+        TextAlign textAlign = TextAlign.end}) =>
     Text(
       title ?? "",
       style: TextStyle(
@@ -455,6 +455,7 @@ Widget PassformTextFeild(
       },
       decoration: InputDecoration(
         hintText: hintText,
+        hintStyle: TextStyle(fontSize: 14),
         contentPadding: EdgeInsets.all(15.0),
         border: InputBorder.none,
         prefixIcon:Container(
@@ -537,7 +538,7 @@ Widget submitNewButtonGreen( {required String title}   ) => Container(
         title ?? "",
         style: TextStyle(
             color: ColorsHelper.whiteColor(),
-            fontSize: 20,
+            fontSize: 16,
             fontWeight: FontWeight.w600),
       ),
     )
@@ -562,7 +563,7 @@ Widget submitNewButtonBlue( {required String title}   ) => Container(
         title ?? "",
         style: TextStyle(
             color: ColorsHelper.whiteColor(),
-            fontSize: 20,
+            fontSize: 16,
             fontWeight: FontWeight.w600),
       ),
     )

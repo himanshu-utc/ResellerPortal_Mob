@@ -70,7 +70,7 @@ class _SignScreenState extends State<SignScreen> {
                     )
                     ,
                     const SizedBox(
-                      width: 20,
+                      width: 30,
                     ),
                     Align(
                       alignment: Alignment.centerLeft,
@@ -78,8 +78,8 @@ class _SignScreenState extends State<SignScreen> {
                           textAlign: TextAlign.start,
                           title: StringHelper.register,
                           textColor: ColorsHelper.blackColor(),
-                          fontWeight: FontWeight.bold,
-                          fontSize: 28),
+                          fontWeight: FontWeight.w600,
+                          fontSize: 18),
                     ),
                   ],
                 ),
@@ -95,7 +95,7 @@ class _SignScreenState extends State<SignScreen> {
                     textColor: ColorsHelper.blueColor(),
                     title: StringHelper.welcome_to_Digi2L,
                     fontSize: 20,
-                    fontWeight: FontWeight.bold),]
+                    fontWeight: FontWeight.w600),]
 
                 ),
                 const SizedBox(
@@ -106,8 +106,8 @@ class _SignScreenState extends State<SignScreen> {
                       Expanded(child:  textHelperSimple(
                           textColor: ColorsHelper.blackColor(),
                           title: StringHelper.you_are_one_step,
-                          fontSize: 16,
-                          fontWeight: FontWeight.bold),)]
+                          fontSize: 13,
+                          fontWeight: FontWeight.w400),)]
 
                 ),
                 //signupForm
@@ -120,7 +120,7 @@ class _SignScreenState extends State<SignScreen> {
                     textAlign: TextAlign.start,
                     title: StringHelper.business_name,
                     textColor: ColorsHelper.blackColor(),
-                    fontWeight: FontWeight.w500, fontSize: 16),),
+                    fontWeight: FontWeight.w600, fontSize: 14),),
 
                 const SizedBox(
                   height: 10,
@@ -144,7 +144,7 @@ class _SignScreenState extends State<SignScreen> {
                     textAlign: TextAlign.start,
                     title: StringHelper.contact_person_name,
                     textColor: ColorsHelper.blackColor(),
-                    fontWeight: FontWeight.w500, fontSize: 16),),
+                    fontWeight: FontWeight.w600, fontSize: 14),),
 
                 const SizedBox(
                   height: 10,
@@ -167,7 +167,7 @@ class _SignScreenState extends State<SignScreen> {
                     textAlign: TextAlign.start,
                     title: StringHelper.contact_person_address,
                     textColor: ColorsHelper.blackColor(),
-                    fontWeight: FontWeight.w500, fontSize: 16),),
+                    fontWeight: FontWeight.w600, fontSize: 14),),
 
                 const SizedBox(
                   height: 10,
@@ -190,7 +190,7 @@ class _SignScreenState extends State<SignScreen> {
                     textAlign: TextAlign.start,
                     title: StringHelper.email,
                     textColor: ColorsHelper.blackColor(),
-                    fontWeight: FontWeight.w500, fontSize: 16),),
+                    fontWeight: FontWeight.w600, fontSize: 14),),
 
                 const SizedBox(
                   height: 10,
@@ -213,7 +213,7 @@ class _SignScreenState extends State<SignScreen> {
                     textAlign: TextAlign.start,
                     title: StringHelper.evc_mobile_number,
                     textColor: ColorsHelper.blackColor(),
-                    fontWeight: FontWeight.w500, fontSize: 16),),
+                    fontWeight: FontWeight.w600, fontSize: 14),),
 
                 const SizedBox(
                   height: 10,
@@ -236,7 +236,7 @@ class _SignScreenState extends State<SignScreen> {
                     textAlign: TextAlign.start,
                     title: StringHelper.address_line_1,
                     textColor: ColorsHelper.blackColor(),
-                    fontWeight: FontWeight.w500, fontSize: 16),),
+                    fontWeight: FontWeight.w600, fontSize: 14),),
 
                 const SizedBox(
                   height: 10,
@@ -259,7 +259,7 @@ class _SignScreenState extends State<SignScreen> {
                     textAlign: TextAlign.start,
                     title: StringHelper.address_line_2,
                     textColor: ColorsHelper.blackColor(),
-                    fontWeight: FontWeight.w500, fontSize: 16),),
+                    fontWeight: FontWeight.w600, fontSize: 14),),
 
                 const SizedBox(
                   height: 10,
@@ -282,7 +282,7 @@ class _SignScreenState extends State<SignScreen> {
                     textAlign: TextAlign.start,
                     title: StringHelper.state,
                     textColor: ColorsHelper.blackColor(),
-                    fontWeight: FontWeight.w500, fontSize: 16),),
+                    fontWeight: FontWeight.w600, fontSize: 14),),
 
                 const SizedBox(
                   height: 10,
@@ -305,7 +305,7 @@ class _SignScreenState extends State<SignScreen> {
                     textAlign: TextAlign.start,
                     title: StringHelper.pincode,
                     textColor: ColorsHelper.blackColor(),
-                    fontWeight: FontWeight.w500, fontSize: 16),),
+                    fontWeight: FontWeight.w600, fontSize: 14),),
 
                 const SizedBox(
                   height: 10,
@@ -340,9 +340,10 @@ class _SignScreenState extends State<SignScreen> {
                       //  alignment: Alignment.centerLeft,
                       child: textHelper(
                           textAlign: TextAlign.start,
-                          title: StringHelper.bank,
+                          title: StringHelper.bank_details,
                           textColor: ColorsHelper.btn_blue(),
-                          fontWeight: FontWeight.w500),
+                          fontWeight: FontWeight.w600,
+                          fontSize: 15),
                     ),
                     Expanded(
                       child: Container(
@@ -364,7 +365,7 @@ class _SignScreenState extends State<SignScreen> {
                     textAlign: TextAlign.start,
                     title: StringHelper.bank_name,
                     textColor: ColorsHelper.blackColor(),
-                    fontWeight: FontWeight.w500, fontSize: 16),),
+                    fontWeight: FontWeight.w600, fontSize: 14),),
 
                 const SizedBox(
                   height: 10,
@@ -387,7 +388,7 @@ class _SignScreenState extends State<SignScreen> {
                     textAlign: TextAlign.start,
                     title: StringHelper.ifsc_code,
                     textColor: ColorsHelper.blackColor(),
-                    fontWeight: FontWeight.w500, fontSize: 16),),
+                    fontWeight: FontWeight.w600, fontSize: 14),),
 
                 const SizedBox(
                   height: 10,
@@ -410,7 +411,7 @@ class _SignScreenState extends State<SignScreen> {
                     textAlign: TextAlign.start,
                     title: StringHelper.bank_account_number,
                     textColor: ColorsHelper.blackColor(),
-                    fontWeight: FontWeight.w500, fontSize: 16),),
+                    fontWeight: FontWeight.w600, fontSize: 14),),
 
                 const SizedBox(
                   height: 10,
@@ -443,12 +444,12 @@ class _SignScreenState extends State<SignScreen> {
                       textAlign: TextAlign.start,
                       title: "${StringHelper.i_agree_to_the} ",
                       textColor: ColorsHelper.blackColor(),
-                      fontWeight: FontWeight.w500, fontSize: 16),),
+                      fontWeight: FontWeight.w400, fontSize: 13),),
                   Align(alignment: Alignment.centerLeft,child: textHelperSimple(
                       textAlign: TextAlign.start,
                       title: StringHelper.  terms_and_condidtions,
                       textColor: ColorsHelper.blueColor(),
-                      fontWeight: FontWeight.w500, fontSize: 16),)],),
+                      fontWeight: FontWeight.w700, fontSize: 13),)],),
 
                 const SizedBox(
                   height: 40,

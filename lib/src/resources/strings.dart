@@ -25,7 +25,7 @@ class StringHelper {
   static const terms_and_conditions = 'terms and conditions';
   static const save = 'Save';
   static const register = 'Register';
-  static const bank = 'Bank';
+  static const bank_details = 'Bank Details';
 
   //Forget Password
   static const forget_password = 'Forget Password';
@@ -88,7 +88,9 @@ class StringHelper {
   static const terms_condidtions = 'terms & conditions.';
   static const already_have_an_account = 'Already have an account?';
 
-
+  //EmailVerifiedSuccessfully
+  static const email_verified_successfully = 'Email Verified Successfully';
+  static const login_credentials_has_been = 'Login Credentials has been sent your email.';
 
   //UploadKYC
   static const upload_kyc = 'Upload KYC';
@@ -98,7 +100,7 @@ class StringHelper {
   static const pan_card = 'Pan Card';
   static const passport_copy = 'Passport Copy';
   static const cv = 'CV';
-  static const bank_details = 'Bank Details';
+  static const bank = 'Bank';
   static const branch = 'Branch';
   static const acc_no = 'Account Number';
   static const no_file_selected = 'No file selected';

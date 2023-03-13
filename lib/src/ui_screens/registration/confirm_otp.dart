@@ -63,7 +63,7 @@ class _ConfirmOtpScreenState extends State<ConfirmOtpScreen> {
                     ),
 
                     const SizedBox(
-                      width: 20,
+                      width: 30,
                     ),
 
                     Align(
@@ -72,8 +72,8 @@ class _ConfirmOtpScreenState extends State<ConfirmOtpScreen> {
                           textAlign: TextAlign.start,
                           title: StringHelper.register,
                           textColor: ColorsHelper.blackColor(),
-                          fontWeight: FontWeight.bold,
-                          fontSize: 28),
+                          fontWeight: FontWeight.w600,
+                          fontSize: 18),
                     ),
                   ],
                 ),
@@ -90,7 +90,7 @@ class _ConfirmOtpScreenState extends State<ConfirmOtpScreen> {
                     textColor: ColorsHelper.blueColor(),
                     title: StringHelper.enter_otp,
                     fontSize: 20,
-                    fontWeight: FontWeight.bold),
+                    fontWeight: FontWeight.w600),
                 ]
                 ),
 
@@ -103,8 +103,8 @@ class _ConfirmOtpScreenState extends State<ConfirmOtpScreen> {
                       Expanded(child: textHelperSimple(
                           textColor: ColorsHelper.blackColor(),
                           title: StringHelper.otp_has_been_send,
-                          fontSize: 16,
-                          fontWeight: FontWeight.bold),)
+                          fontSize: 13,
+                          fontWeight: FontWeight.w400),)
                     ]
                 ),
                 //signupForm
@@ -117,8 +117,8 @@ class _ConfirmOtpScreenState extends State<ConfirmOtpScreen> {
                       Expanded(child: textHelperSimple(
                           textColor: ColorsHelper.blackColor(),
                           title: StringHelper.email_hint,
-                          fontSize: 16,
-                          fontWeight: FontWeight.bold),)
+                          fontSize: 13,
+                          fontWeight: FontWeight.w700),)
                     ]
                 ),
                 //signupForm

@@ -62,7 +62,7 @@ class _SignUpTwoScreenState extends State<SignUpTwoScreen> {
                   )
                   ,
                   const SizedBox(
-                    width: 20,
+                    width: 30,
                   ),
                   Align(
                     alignment: Alignment.centerLeft,
@@ -70,8 +70,8 @@ class _SignUpTwoScreenState extends State<SignUpTwoScreen> {
                         textAlign: TextAlign.start,
                         title: StringHelper.register,
                         textColor: ColorsHelper.blackColor(),
-                        fontWeight: FontWeight.bold,
-                        fontSize: 28),
+                        fontWeight: FontWeight.w600,
+                        fontSize: 18),
                   ),
                 ],
               ),
@@ -85,7 +85,7 @@ class _SignUpTwoScreenState extends State<SignUpTwoScreen> {
                 textAlign: TextAlign.start,
                 title: StringHelper.e_waste_registration_number,
                 textColor: ColorsHelper.blackColor(),
-                fontWeight: FontWeight.w500, fontSize: 16),),
+                fontWeight: FontWeight.w600, fontSize: 14),),
 
             const SizedBox(
               height: 10,
@@ -109,7 +109,7 @@ class _SignUpTwoScreenState extends State<SignUpTwoScreen> {
                 textAlign: TextAlign.start,
                 title: StringHelper.gst_number,
                 textColor: ColorsHelper.blackColor(),
-                fontWeight: FontWeight.w500, fontSize: 16),),
+                fontWeight: FontWeight.w600, fontSize: 14),),
 
             const SizedBox(
               height: 10,
@@ -132,7 +132,7 @@ class _SignUpTwoScreenState extends State<SignUpTwoScreen> {
                 textAlign: TextAlign.start,
                 title: StringHelper.poc_name,
                 textColor: ColorsHelper.blackColor(),
-                fontWeight: FontWeight.w500, fontSize: 16),),
+                fontWeight: FontWeight.w600, fontSize: 14),),
 
             const SizedBox(
               height: 10,
@@ -155,7 +155,7 @@ class _SignUpTwoScreenState extends State<SignUpTwoScreen> {
                 textAlign: TextAlign.start,
                 title: StringHelper.poc_place,
                 textColor: ColorsHelper.blackColor(),
-                fontWeight: FontWeight.w500, fontSize: 16),),
+                fontWeight: FontWeight.w600, fontSize: 14),),
 
             const SizedBox(
               height: 10,

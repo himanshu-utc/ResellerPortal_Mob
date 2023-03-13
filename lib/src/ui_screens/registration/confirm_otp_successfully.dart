@@ -49,10 +49,10 @@ class _ConfirmOTPSuccessfulState extends State<ConfirmOTPSuccessful> {
               children: <Widget>[
 
                 const SizedBox(
-                  height: 10,
+                  height: 100,
                 ),
 
-                Row(
+                /*Row(
                   children: [
                     GestureDetector(
                       onTap: () {
@@ -83,7 +83,7 @@ class _ConfirmOTPSuccessfulState extends State<ConfirmOTPSuccessful> {
 
                 const SizedBox(
                   height: 100,
-                ),
+                ),*/
 
                 assetImageHelper(
                   image: ImageAssets.green_tick_iv,
@@ -97,10 +97,10 @@ class _ConfirmOTPSuccessfulState extends State<ConfirmOTPSuccessful> {
                   mainAxisAlignment: MainAxisAlignment.center,
                     children: [textHelper(
                     textColor: ColorsHelper.blueColor(),
-                    title: StringHelper.successfully_confirm_otp,
-                    fontSize: 20,
+                    title: StringHelper.email_verified_successfully,
+                    fontSize: 24,
                     textAlign: TextAlign.center,
-                    fontWeight: FontWeight.bold),
+                    fontWeight: FontWeight.w600),
                 ]
                 ),
 
@@ -108,15 +108,26 @@ class _ConfirmOTPSuccessfulState extends State<ConfirmOTPSuccessful> {
                   height: 20,
                 ),
 
-                /*Row(
+            /*    Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [textHelper(
+                        textColor: ColorsHelper.blueColor(),
+                        title: StringHelper.login_credentials_has_been,
+                        fontSize: 19,
+                        textAlign: TextAlign.center,
+                        fontWeight: FontWeight.w400),
+                    ]
+                ),*/
+                Row(
                     children: [
                       Expanded(child: textHelperSimple(
                           textColor: ColorsHelper.blackColor(),
-                          title: StringHelper.please_check_your_email,
-                          fontSize: 16,
-                          fontWeight: FontWeight.bold),)
+                          title: StringHelper.login_credentials_has_been,
+                          fontSize: 19,
+                          textAlign: TextAlign.center,
+                          fontWeight: FontWeight.w400),)
                     ]
-                ),*/
+                ),
                 //signupForm
                 const SizedBox(
                   height: 60,

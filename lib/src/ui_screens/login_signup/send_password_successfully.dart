@@ -65,7 +65,7 @@ class _SendPasswordSuccessfulState extends State<SendPasswordSuccessful> {
                     ),
 
                     const SizedBox(
-                      width: 20,
+                      width: 30,
                     ),
 
                     Align(
@@ -74,8 +74,8 @@ class _SendPasswordSuccessfulState extends State<SendPasswordSuccessful> {
                           textAlign: TextAlign.start,
                           title: StringHelper.forget_password,
                           textColor: ColorsHelper.blackColor(),
-                          fontWeight: FontWeight.bold,
-                          fontSize: 28),
+                          fontWeight: FontWeight.w600,
+                          fontSize: 18),
                     ),
                   ],
                 ),
@@ -97,9 +97,9 @@ class _SendPasswordSuccessfulState extends State<SendPasswordSuccessful> {
                     children: [textHelper(
                     textColor: ColorsHelper.blueColor(),
                     title: StringHelper.email_sent,
-                    fontSize: 20,
+                    fontSize: 26,
                     textAlign: TextAlign.center,
-                    fontWeight: FontWeight.bold),
+                    fontWeight: FontWeight.w600),
                 ]
                 ),
 
@@ -112,8 +112,9 @@ class _SendPasswordSuccessfulState extends State<SendPasswordSuccessful> {
                       Expanded(child: textHelperSimple(
                           textColor: ColorsHelper.blackColor(),
                           title: StringHelper.please_check_your_email,
-                          fontSize: 16,
-                          fontWeight: FontWeight.bold),)
+                          textAlign: TextAlign.center,
+                          fontSize: 14,
+                          fontWeight: FontWeight.w400),)
                     ]
                 ),
                 //signupForm

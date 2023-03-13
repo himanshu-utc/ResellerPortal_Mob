@@ -98,8 +98,8 @@ class _LoginScreenState extends State<LoginScreen> {
                           textAlign: TextAlign.start,
                           title: StringHelper.login,
                           textColor: ColorsHelper.blackColor(),
-                          fontWeight: FontWeight.bold,
-                          fontSize: 40),
+                          fontWeight: FontWeight.w600,
+                          fontSize: 26),
                     ),
 
                     Expanded(
@@ -124,7 +124,8 @@ class _LoginScreenState extends State<LoginScreen> {
                       textAlign: TextAlign.start,
                       title: StringHelper.enter_your_email,
                       textColor: ColorsHelper.blackColor(),
-                      fontWeight: FontWeight.w700),
+                      fontWeight: FontWeight.w400,
+                      fontSize: 14),
                 ),
 
                 const SizedBox(
@@ -153,7 +154,8 @@ class _LoginScreenState extends State<LoginScreen> {
                       textAlign: TextAlign.start,
                       title: StringHelper.pass,
                       textColor: ColorsHelper.blackColor(),
-                      fontWeight: FontWeight.w700),
+                      fontWeight: FontWeight.w400,
+                      fontSize: 14),
                 ),
 
                 const SizedBox(
@@ -169,6 +171,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         hintText: StringHelper.password,
                         textInputType: TextInputType.text,
                         textInputAction: TextInputAction.done,
+
                         // validation: CommonValidator.passValidation,
                         obscureText: isHide,
                         suffixIcon: true,
@@ -187,14 +190,20 @@ class _LoginScreenState extends State<LoginScreen> {
                   onTap: (){
                     launchForgetPassPage(context);
                   },
-                  child:  Container(
-                    margin: const  EdgeInsets.fromLTRB(8, 0, 8, 0),
-                    child:   textHelper(
-                      textAlign: TextAlign.start,
-                      title: StringHelper.forgot_password,
-                      textColor: ColorsHelper.btn_blue(),
-                      fontWeight: FontWeight.w700),
-                  ),
+                  child: Align (
+                    alignment: Alignment.topRight,
+                    child: Container(
+                      margin: const  EdgeInsets.fromLTRB(8, 0, 8, 0),
+                      child:   textHelper(
+                          textAlign: TextAlign.start,
+                          title: StringHelper.forgot_password,
+                          textColor: ColorsHelper.btn_blue(),
+                          fontWeight: FontWeight.w600,
+                          fontSize: 14),
+                    ) ,
+                  )
+
+                 ,
                 ),
 
                /* Align(
@@ -218,6 +227,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     margin: const  EdgeInsets.fromLTRB(8, 0, 8, 0),
                     child:   submitNewButtonBlue(
                         title: StringHelper.login,
+
 
                     ),
                   ),
@@ -246,7 +256,8 @@ class _LoginScreenState extends State<LoginScreen> {
                           textAlign: TextAlign.start,
                           title: StringHelper.or,
                           textColor: ColorsHelper.blackColor(),
-                          fontWeight: FontWeight.w500),
+                          fontWeight: FontWeight.w500,
+                          fontSize: 14),
                     ),
                     Expanded(
                       child: Container(

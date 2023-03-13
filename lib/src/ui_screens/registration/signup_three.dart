@@ -59,7 +59,7 @@ class _SignUpThreeScreenState extends State<SignUpThreeScreen> {
                     )
                     ,
                     const SizedBox(
-                      width: 20,
+                      width: 30,
                     ),
                     Align(
                       alignment: Alignment.centerLeft,
@@ -67,8 +67,8 @@ class _SignUpThreeScreenState extends State<SignUpThreeScreen> {
                           textAlign: TextAlign.start,
                           title: StringHelper.register,
                           textColor: ColorsHelper.blackColor(),
-                          fontWeight: FontWeight.bold,
-                          fontSize: 28),
+                          fontWeight: FontWeight.w600,
+                          fontSize: 18),
                     ),
                   ],
                 ),
